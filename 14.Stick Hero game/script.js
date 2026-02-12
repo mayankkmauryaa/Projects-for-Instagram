@@ -304,9 +304,9 @@ function thePlatformTheStickHits() {
   if (
     platformTheStickHits &&
     platformTheStickHits.x + platformTheStickHits.w / 2 - perfectAreaSize / 2 <
-      stickFarX &&
+    stickFarX &&
     stickFarX <
-      platformTheStickHits.x + platformTheStickHits.w / 2 + perfectAreaSize / 2
+    platformTheStickHits.x + platformTheStickHits.w / 2 + perfectAreaSize / 2
   )
     return [platformTheStickHits, true];
 
@@ -512,7 +512,7 @@ function getHillY(windowX, baseHeight, amplitude, stretch) {
   const sineBaseY = window.innerHeight - baseHeight;
   return (
     Math.sinus((sceneOffset * backgroundSpeedMultiplier + windowX) * stretch) *
-      amplitude +
+    amplitude +
     sineBaseY
   );
 }

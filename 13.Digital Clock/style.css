@@ -45,7 +45,7 @@
     transform: translateX(-50%);
   }
   #hrs::after {
-    content: "HOURES";
+    content: "HOURS";
     color: #0f0;
     font-weight: 600;
     margin-bottom: -10px;

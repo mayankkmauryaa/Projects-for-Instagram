@@ -428,11 +428,11 @@ nav button svg {
     width: 70%;
 }
 
-#page5-right > p {
+#page5-right>p {
     font-size: 2.1vw;
 }
 
-#page5-right > p span {
+#page5-right>p span {
     /* background-color: red; */
     width: 15vw;
     display: inline-block;
@@ -557,7 +557,7 @@ summary::marker {
     padding: 10vh 10vw;
 }
 
-#page6 > h1 {
+#page6>h1 {
     font-size: 5.5vw;
     color: #000;
     /* background-color: red; */
@@ -694,22 +694,28 @@ summary::marker {
     border-radius: 50%;
     margin-right: 1vw;
 }
-#btm6-part2 h4:nth-child(2){
+
+#btm6-part2 h4:nth-child(2) {
     transform: translateX(0);
 }
-#btm6-part2 h4:nth-child(3){
+
+#btm6-part2 h4:nth-child(3) {
     transform: translateX(10%);
 }
-#btm6-part2 h4:nth-child(4){
+
+#btm6-part2 h4:nth-child(4) {
     transform: translateX(20%);
 }
-#btm6-part2 h4:nth-child(5){
+
+#btm6-part2 h4:nth-child(5) {
     transform: translateX(30%);
 }
-#btm6-part2 h4:nth-child(6){
+
+#btm6-part2 h4:nth-child(6) {
     transform: translateX(40%);
 }
-#btm6-part2 h4:nth-child(7){
+
+#btm6-part2 h4:nth-child(7) {
     transform: translateX(50%);
 }
 
